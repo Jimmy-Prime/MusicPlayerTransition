@@ -6,6 +6,7 @@
 //  Copyright © 2018 Prime. All rights reserved.
 //
 
+import Hero
 import SnapKit
 import UIKit
 
@@ -27,12 +28,14 @@ class ListViewController: UIViewController {
 
     private func createView() {
         view.backgroundColor = .black
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
 
         view.addSubview(infoContainerView)
 
         albumCoverImageView.image = UIImage(named: "OneMoreLight.jpg")
         albumCoverImageView.contentMode = .scaleAspectFill
         albumCoverImageView.clipsToBounds = true
+        albumCoverImageView.hero.id = Hero.cover
         infoContainerView.addSubview(albumCoverImageView)
 
         maskContainerView.backgroundColor = UIColor.black.withAlphaComponent(0.1)
@@ -41,11 +44,13 @@ class ListViewController: UIViewController {
         nameLabel.textColor = .white
         nameLabel.font = UIFont.systemFont(ofSize: 17, weight: .bold)
         nameLabel.text = "One More Light"
+        nameLabel.hero.id = Hero.name
         maskContainerView.addSubview(nameLabel)
 
         artistLabel.textColor = .lightGray
         artistLabel.font = UIFont.systemFont(ofSize: 17, weight: .bold)
         artistLabel.text = "Linkin Park"
+        artistLabel.hero.id = Hero.artist
         maskContainerView.addSubview(artistLabel)
 
         tableView.backgroundColor = .clear
@@ -84,5 +89,9 @@ class ListViewController: UIViewController {
             make.left.right.equalToSuperview()
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
+    }
+
+    @objc private func tap() {
+        present(PlayerViewController(), animated: true, completion: nil)
     }
 }
