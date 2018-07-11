@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CDE20F59B4800422A67 /* AppDelegate.swift */; };
 		88B45CE120F59B4800422A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CE020F59B4800422A67 /* ViewController.swift */; };
-		88B45CE420F59B4800422A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE220F59B4800422A67 /* Main.storyboard */; };
 		88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE520F59B4900422A67 /* Assets.xcassets */; };
-		88B45CE920F59B4900422A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE720F59B4900422A67 /* LaunchScreen.storyboard */; };
 		88B45CF420F59B4A00422A67 /* MusicPlayerTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CF320F59B4A00422A67 /* MusicPlayerTransitionTests.swift */; };
 		88B45CFF20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CFE20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		88B45CDB20F59B4800422A67 /* MusicPlayerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B45CDE20F59B4800422A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B45CE020F59B4800422A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88B45CE320F59B4800422A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88B45CE520F59B4900422A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88B45CE820F59B4900422A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B45CEA20F59B4900422A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88B45CEF20F59B4A00422A67 /* MusicPlayerTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B45CF320F59B4A00422A67 /* MusicPlayerTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTransitionTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				88B45CDE20F59B4800422A67 /* AppDelegate.swift */,
 				88B45CE020F59B4800422A67 /* ViewController.swift */,
-				88B45CE220F59B4800422A67 /* Main.storyboard */,
 				88B45CE520F59B4900422A67 /* Assets.xcassets */,
-				88B45CE720F59B4900422A67 /* LaunchScreen.storyboard */,
 				88B45CEA20F59B4900422A67 /* Info.plist */,
 			);
 			path = MusicPlayerTransition;
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B45CE920F59B4900422A67 /* LaunchScreen.storyboard in Resources */,
 				88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */,
-				88B45CE420F59B4800422A67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +283,6 @@
 			targetProxy = 88B45CFB20F59B4A00422A67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		88B45CE220F59B4800422A67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88B45CE320F59B4800422A67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		88B45CE720F59B4900422A67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88B45CE820F59B4900422A67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		88B45D0120F59B4A00422A67 /* Debug */ = {
