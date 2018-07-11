@@ -19,6 +19,7 @@ class ListViewController: UIViewController {
     let nameLabel = UILabel()
     let artistLabel = UILabel()
 
+    var tableViewDataSource = [SongInfo]()
     let tableView = UITableView(frame: .zero, style: .plain)
 
     override func viewDidLoad() {
@@ -58,8 +59,7 @@ class ListViewController: UIViewController {
         artistLabel.hero.id = Hero.artist
         maskContainerView.addSubview(artistLabel)
 
-        tableView.backgroundColor = .clear
-        view.addSubview(tableView)
+        setUpTableView()
     }
 
     private func createConstraint() {
@@ -102,6 +102,12 @@ class ListViewController: UIViewController {
     }
 
     @objc private func tap() {
+        tableView.hero.modifiers = [.cascade(delta: 0, direction: .bottomToTop, delayMatchedViews: false)]
+
+        for (index, cell) in tableView.visibleCells.enumerated() {
+            cell.hero.modifiers = [.duration(0.125 * Double(index)), .translate(CGPoint.init(x: 0, y: 90)), .fade]
+        }
+
         present(PlayerViewController(), animated: true, completion: nil)
     }
 }

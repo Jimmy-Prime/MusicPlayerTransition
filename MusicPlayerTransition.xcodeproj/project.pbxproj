@@ -14,6 +14,14 @@
 		881703EA20F5B139006C6ACA /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703E920F5B139006C6ACA /* Const.swift */; };
 		881703EC20F5B3BA006C6ACA /* CD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703EB20F5B3BA006C6ACA /* CD.swift */; };
 		881703EE20F5DDD2006C6ACA /* TriangularMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */; };
+		881703F320F5DF11006C6ACA /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703F120F5DF11006C6ACA /* ListTableViewCell.swift */; };
+		881703F420F5DF11006C6ACA /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881703F220F5DF11006C6ACA /* ListTableViewCell.xib */; };
+		881703F620F5E032006C6ACA /* ListViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703F520F5E032006C6ACA /* ListViewController+UITableView.swift */; };
+		881703F820F5E329006C6ACA /* Meteora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881703F720F5E328006C6ACA /* Meteora.jpg */; };
+		881703FA20F5E332006C6ACA /* HybridTheory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881703F920F5E332006C6ACA /* HybridTheory.jpg */; };
+		881703FC20F5E390006C6ACA /* AThousandSuns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881703FB20F5E390006C6ACA /* AThousandSuns.jpg */; };
+		881703FE20F5E3B5006C6ACA /* MinutesToMidnight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881703FD20F5E3B5006C6ACA /* MinutesToMidnight.jpg */; };
+		8817040020F5E40F006C6ACA /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703FF20F5E40F006C6ACA /* SongInfo.swift */; };
 		88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CDE20F59B4800422A67 /* AppDelegate.swift */; };
 		88B45CE120F59B4800422A67 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CE020F59B4800422A67 /* ListViewController.swift */; };
 		88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE520F59B4900422A67 /* Assets.xcassets */; };
@@ -51,6 +59,14 @@
 		881703E920F5B139006C6ACA /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		881703EB20F5B3BA006C6ACA /* CD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CD.swift; sourceTree = "<group>"; };
 		881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularMaskView.swift; sourceTree = "<group>"; };
+		881703F120F5DF11006C6ACA /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		881703F220F5DF11006C6ACA /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		881703F520F5E032006C6ACA /* ListViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+UITableView.swift"; sourceTree = "<group>"; };
+		881703F720F5E328006C6ACA /* Meteora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meteora.jpg; sourceTree = "<group>"; };
+		881703F920F5E332006C6ACA /* HybridTheory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HybridTheory.jpg; sourceTree = "<group>"; };
+		881703FB20F5E390006C6ACA /* AThousandSuns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AThousandSuns.jpg; sourceTree = "<group>"; };
+		881703FD20F5E3B5006C6ACA /* MinutesToMidnight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MinutesToMidnight.jpg; sourceTree = "<group>"; };
+		881703FF20F5E40F006C6ACA /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
 		88B45CDB20F59B4800422A67 /* MusicPlayerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B45CDE20F59B4800422A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B45CE020F59B4800422A67 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				881703EB20F5B3BA006C6ACA /* CD.swift */,
+				881703F120F5DF11006C6ACA /* ListTableViewCell.swift */,
+				881703F220F5DF11006C6ACA /* ListTableViewCell.xib */,
 				881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */,
 			);
 			path = View;
@@ -131,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				88B45CE020F59B4800422A67 /* ListViewController.swift */,
+				881703F520F5E032006C6ACA /* ListViewController+UITableView.swift */,
 				881703E720F5AF9E006C6ACA /* PlayerViewController.swift */,
 			);
 			path = ViewController;
@@ -161,9 +180,14 @@
 		88B45CDD20F59B4800422A67 /* MusicPlayerTransition */ = {
 			isa = PBXGroup;
 			children = (
+				881703FB20F5E390006C6ACA /* AThousandSuns.jpg */,
+				881703F920F5E332006C6ACA /* HybridTheory.jpg */,
+				881703F720F5E328006C6ACA /* Meteora.jpg */,
+				881703FD20F5E3B5006C6ACA /* MinutesToMidnight.jpg */,
 				881703E520F5A298006C6ACA /* OneMoreLight.jpg */,
 				88B45CDE20F59B4800422A67 /* AppDelegate.swift */,
 				881703E920F5B139006C6ACA /* Const.swift */,
+				881703FF20F5E40F006C6ACA /* SongInfo.swift */,
 				881703EF20F5DEB5006C6ACA /* View */,
 				881703F020F5DEBB006C6ACA /* ViewController */,
 				88B45CE520F59B4900422A67 /* Assets.xcassets */,
@@ -299,7 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				881703E620F5A298006C6ACA /* OneMoreLight.jpg in Resources */,
+				881703F420F5DF11006C6ACA /* ListTableViewCell.xib in Resources */,
 				88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */,
+				881703FA20F5E332006C6ACA /* HybridTheory.jpg in Resources */,
+				881703FC20F5E390006C6ACA /* AThousandSuns.jpg in Resources */,
+				881703FE20F5E3B5006C6ACA /* MinutesToMidnight.jpg in Resources */,
+				881703F820F5E329006C6ACA /* Meteora.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,11 +430,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8817040020F5E40F006C6ACA /* SongInfo.swift in Sources */,
+				881703F320F5DF11006C6ACA /* ListTableViewCell.swift in Sources */,
 				88B45CE120F59B4800422A67 /* ListViewController.swift in Sources */,
 				881703EA20F5B139006C6ACA /* Const.swift in Sources */,
 				88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */,
 				881703EC20F5B3BA006C6ACA /* CD.swift in Sources */,
 				881703E820F5AF9E006C6ACA /* PlayerViewController.swift in Sources */,
+				881703F620F5E032006C6ACA /* ListViewController+UITableView.swift in Sources */,
 				881703EE20F5DDD2006C6ACA /* TriangularMaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
