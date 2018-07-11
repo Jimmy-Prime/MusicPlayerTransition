@@ -118,6 +118,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		881703EF20F5DEB5006C6ACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				881703EB20F5B3BA006C6ACA /* CD.swift */,
+				881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		881703F020F5DEBB006C6ACA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88B45CE020F59B4800422A67 /* ListViewController.swift */,
+				881703E720F5AF9E006C6ACA /* PlayerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		88B45CD220F59B4800422A67 = {
 			isa = PBXGroup;
 			children = (
@@ -146,10 +164,8 @@
 				881703E520F5A298006C6ACA /* OneMoreLight.jpg */,
 				88B45CDE20F59B4800422A67 /* AppDelegate.swift */,
 				881703E920F5B139006C6ACA /* Const.swift */,
-				881703EB20F5B3BA006C6ACA /* CD.swift */,
-				881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */,
-				88B45CE020F59B4800422A67 /* ListViewController.swift */,
-				881703E720F5AF9E006C6ACA /* PlayerViewController.swift */,
+				881703EF20F5DEB5006C6ACA /* View */,
+				881703F020F5DEBB006C6ACA /* ViewController */,
 				88B45CE520F59B4900422A67 /* Assets.xcassets */,
 				88B45CEA20F59B4900422A67 /* Info.plist */,
 			);
