@@ -16,6 +16,12 @@ class PlayerViewController: UIViewController {
     let artistLabel = UILabel()
     let cd = CD(image: UIImage(named: "OneMoreLight.jpg"))
 
+    let repeatButton = UIButton(type: .custom)
+    let goPrevButton = UIButton(type: .custom)
+    let goNextButton = UIButton(type: .custom)
+    let shuffleButton = UIButton(type: .custom)
+    var stackView = UIStackView()
+
     var animator = UIDynamicAnimator(referenceView: UIView())
     let dynamicItemBehavior = UIDynamicItemBehavior()
 
@@ -54,6 +60,19 @@ class PlayerViewController: UIViewController {
         artistLabel.text = "Linkin Park"
         artistLabel.hero.id = Hero.artist
         containerView.addSubview(artistLabel)
+
+        repeatButton.setImage(UIImage(named: "ic_repeat_white"), for: .normal)
+        goPrevButton.setImage(UIImage(named: "ic_skip_previous_white"), for: .normal)
+        goNextButton.setImage(UIImage(named: "ic_skip_next_white"), for: .normal)
+        shuffleButton.setImage(UIImage(named: "ic_shuffle_white"), for: .normal)
+
+        stackView = UIStackView(arrangedSubviews: [repeatButton, goPrevButton, goNextButton, shuffleButton])
+        stackView.axis = .horizontal
+        stackView.alignment = .fill
+        stackView.distribution = .equalSpacing
+        stackView.hero.modifiers = [.translate(CGPoint(x: 0, y: 100))]
+
+        view.addSubview(stackView)
     }
 
     private func createConstraint() {
@@ -74,6 +93,11 @@ class PlayerViewController: UIViewController {
         artistLabel.snp.makeConstraints { (make) in
             make.left.equalTo(nameLabel.snp.right).offset(8)
             make.top.bottom.right.equalToSuperview()
+        }
+
+        stackView.snp.makeConstraints { (make) in
+            make.left.right.equalTo(cd)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(60)
         }
     }
 
