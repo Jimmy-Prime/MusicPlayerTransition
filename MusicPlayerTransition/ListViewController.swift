@@ -11,6 +11,8 @@ import SnapKit
 import UIKit
 
 class ListViewController: UIViewController {
+    let triangularMaskView = UIView()
+
     let infoContainerView = UIView()
     let albumCoverImageView = UIImageView()
     let maskContainerView = UIView()
@@ -29,6 +31,8 @@ class ListViewController: UIViewController {
     private func createView() {
         view.backgroundColor = .black
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
+
+        setUpTriangularMaskView()
 
         view.addSubview(infoContainerView)
 
@@ -58,6 +62,11 @@ class ListViewController: UIViewController {
     }
 
     private func createConstraint() {
+        triangularMaskView.snp.makeConstraints { (make) in
+            make.left.right.height.equalToSuperview()
+            make.centerY.equalTo(infoContainerView.snp.bottom)
+        }
+
         infoContainerView.snp.makeConstraints { (make) in
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
             make.left.right.equalToSuperview()
@@ -89,6 +98,24 @@ class ListViewController: UIViewController {
             make.left.right.equalToSuperview()
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
+    }
+
+    private func setUpTriangularMaskView() {
+        let size = UIScreen.main.bounds.size
+        let triangularPath = UIBezierPath()
+        triangularPath.move(to: .zero)
+        triangularPath.addLine(to: CGPoint(x: size.width, y: 0))
+        triangularPath.addLine(to: CGPoint(x: size.width, y: size.height))
+        triangularPath.close()
+
+        let triangularMaskLayer = CAShapeLayer()
+        triangularMaskLayer.path = triangularPath.cgPath
+
+        triangularMaskView.backgroundColor = UIColor(white: 1.0/16.0, alpha: 1)
+        triangularMaskView.layer.mask = triangularMaskLayer
+
+        triangularMaskView.hero.id = Hero.triangularMask
+        view.addSubview(triangularMaskView)
     }
 
     @objc private func tap() {

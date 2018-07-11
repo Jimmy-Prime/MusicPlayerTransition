@@ -11,6 +11,8 @@ import SnapKit
 import UIKit
 
 class PlayerViewController: UIViewController {
+    let triangularMaskView = UIView()
+
     let containerView = UIView()
     let nameLabel = UILabel()
     let artistLabel = UILabel()
@@ -44,6 +46,8 @@ class PlayerViewController: UIViewController {
         view.backgroundColor = .black
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
 
+        setUpTriangularMaskView()
+
         cd.hero.id = Hero.cover
         view.addSubview(cd)
 
@@ -76,6 +80,10 @@ class PlayerViewController: UIViewController {
     }
 
     private func createConstraint() {
+        triangularMaskView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+
         cd.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
             make.width.height.equalTo(300)
@@ -109,6 +117,24 @@ class PlayerViewController: UIViewController {
 
         dynamicItemBehavior.addAngularVelocity(-dynamicItemBehavior.angularVelocity(for: cd), for: cd)
         dynamicItemBehavior.addAngularVelocity(2, for: cd)
+    }
+
+    private func setUpTriangularMaskView() {
+        let size = UIScreen.main.bounds.size
+        let triangularPath = UIBezierPath()
+        triangularPath.move(to: .zero)
+        triangularPath.addLine(to: CGPoint(x: size.width, y: 0))
+        triangularPath.addLine(to: CGPoint(x: size.width, y: size.height))
+        triangularPath.close()
+
+        let triangularMaskLayer = CAShapeLayer()
+        triangularMaskLayer.path = triangularPath.cgPath
+
+        triangularMaskView.backgroundColor = UIColor(white: 1.0/16.0, alpha: 1)
+        triangularMaskView.layer.mask = triangularMaskLayer
+
+        triangularMaskView.hero.id = Hero.triangularMask
+        view.addSubview(triangularMaskView)
     }
 
     @objc private func tap() {

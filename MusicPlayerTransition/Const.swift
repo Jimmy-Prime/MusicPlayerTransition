@@ -9,6 +9,8 @@
 import Foundation
 
 struct Hero {
+    static let triangularMask = "triangularMask"
+
     static let cover = "cover"
 
     static let name = "name"
