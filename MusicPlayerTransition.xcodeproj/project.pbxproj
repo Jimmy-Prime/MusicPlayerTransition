@@ -155,6 +155,18 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		8817040120F5EA56006C6ACA /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				881703FB20F5E390006C6ACA /* AThousandSuns.jpg */,
+				881703F920F5E332006C6ACA /* HybridTheory.jpg */,
+				881703F720F5E328006C6ACA /* Meteora.jpg */,
+				881703FD20F5E3B5006C6ACA /* MinutesToMidnight.jpg */,
+				881703E520F5A298006C6ACA /* OneMoreLight.jpg */,
+			);
+			path = Pics;
+			sourceTree = "<group>";
+		};
 		88B45CD220F59B4800422A67 = {
 			isa = PBXGroup;
 			children = (
@@ -180,14 +192,10 @@
 		88B45CDD20F59B4800422A67 /* MusicPlayerTransition */ = {
 			isa = PBXGroup;
 			children = (
-				881703FB20F5E390006C6ACA /* AThousandSuns.jpg */,
-				881703F920F5E332006C6ACA /* HybridTheory.jpg */,
-				881703F720F5E328006C6ACA /* Meteora.jpg */,
-				881703FD20F5E3B5006C6ACA /* MinutesToMidnight.jpg */,
-				881703E520F5A298006C6ACA /* OneMoreLight.jpg */,
 				88B45CDE20F59B4800422A67 /* AppDelegate.swift */,
 				881703E920F5B139006C6ACA /* Const.swift */,
 				881703FF20F5E40F006C6ACA /* SongInfo.swift */,
+				8817040120F5EA56006C6ACA /* Pics */,
 				881703EF20F5DEB5006C6ACA /* View */,
 				881703F020F5DEBB006C6ACA /* ViewController */,
 				88B45CE520F59B4900422A67 /* Assets.xcassets */,
