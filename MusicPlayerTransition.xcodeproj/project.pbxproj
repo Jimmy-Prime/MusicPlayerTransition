@@ -13,6 +13,7 @@
 		881703E820F5AF9E006C6ACA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703E720F5AF9E006C6ACA /* PlayerViewController.swift */; };
 		881703EA20F5B139006C6ACA /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703E920F5B139006C6ACA /* Const.swift */; };
 		881703EC20F5B3BA006C6ACA /* CD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703EB20F5B3BA006C6ACA /* CD.swift */; };
+		881703EE20F5DDD2006C6ACA /* TriangularMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */; };
 		88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CDE20F59B4800422A67 /* AppDelegate.swift */; };
 		88B45CE120F59B4800422A67 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CE020F59B4800422A67 /* ListViewController.swift */; };
 		88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE520F59B4900422A67 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		881703E720F5AF9E006C6ACA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		881703E920F5B139006C6ACA /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		881703EB20F5B3BA006C6ACA /* CD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CD.swift; sourceTree = "<group>"; };
+		881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangularMaskView.swift; sourceTree = "<group>"; };
 		88B45CDB20F59B4800422A67 /* MusicPlayerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B45CDE20F59B4800422A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B45CE020F59B4800422A67 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				88B45CDE20F59B4800422A67 /* AppDelegate.swift */,
 				881703E920F5B139006C6ACA /* Const.swift */,
 				881703EB20F5B3BA006C6ACA /* CD.swift */,
+				881703ED20F5DDD2006C6ACA /* TriangularMaskView.swift */,
 				88B45CE020F59B4800422A67 /* ListViewController.swift */,
 				881703E720F5AF9E006C6ACA /* PlayerViewController.swift */,
 				88B45CE520F59B4900422A67 /* Assets.xcassets */,
@@ -387,6 +390,7 @@
 				88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */,
 				881703EC20F5B3BA006C6ACA /* CD.swift in Sources */,
 				881703E820F5AF9E006C6ACA /* PlayerViewController.swift in Sources */,
+				881703EE20F5DDD2006C6ACA /* TriangularMaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
