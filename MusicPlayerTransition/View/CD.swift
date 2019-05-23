@@ -51,7 +51,7 @@ class CD: UIView {
 
         let layer = CAShapeLayer()
         layer.path = path
-        layer.fillRule = kCAFillRuleEvenOdd
+        layer.fillRule = .evenOdd
         self.layer.mask = layer
     }
 

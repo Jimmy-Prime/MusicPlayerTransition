@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3397206024DCD76447C0E22B /* Pods_MusicPlayerTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD0AC9D8FDB841FC287923 /* Pods_MusicPlayerTransition.framework */; };
-		61BBAA7C97758758D96BEB24 /* Pods_MusicPlayerTransitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E583F4EDAFD363DC1528D9 /* Pods_MusicPlayerTransitionTests.framework */; };
+		5F28BE2B45D9D5496C04DF14 /* libPods-MusicPlayerTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDAA0AC4894626235398366 /* libPods-MusicPlayerTransition.a */; };
 		881703E620F5A298006C6ACA /* OneMoreLight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881703E520F5A298006C6ACA /* OneMoreLight.jpg */; };
 		881703E820F5AF9E006C6ACA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703E720F5AF9E006C6ACA /* PlayerViewController.swift */; };
 		881703EA20F5B139006C6ACA /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881703E920F5B139006C6ACA /* Const.swift */; };
@@ -25,33 +24,13 @@
 		88B45CDF20F59B4800422A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CDE20F59B4800422A67 /* AppDelegate.swift */; };
 		88B45CE120F59B4800422A67 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CE020F59B4800422A67 /* ListViewController.swift */; };
 		88B45CE620F59B4900422A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B45CE520F59B4900422A67 /* Assets.xcassets */; };
-		88B45CF420F59B4A00422A67 /* MusicPlayerTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CF320F59B4A00422A67 /* MusicPlayerTransitionTests.swift */; };
-		88B45CFF20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B45CFE20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift */; };
-		A890A001084A2E0979F04871 /* Pods_MusicPlayerTransitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69062371965B734C0B67C64E /* Pods_MusicPlayerTransitionUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		88B45CF020F59B4A00422A67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88B45CD320F59B4800422A67 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88B45CDA20F59B4800422A67;
-			remoteInfo = MusicPlayerTransition;
-		};
-		88B45CFB20F59B4A00422A67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88B45CD320F59B4800422A67 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88B45CDA20F59B4800422A67;
-			remoteInfo = MusicPlayerTransition;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E5A62A8EA7CA35EA47CB046 /* Pods-MusicPlayerTransitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransitionUITests/Pods-MusicPlayerTransitionUITests.release.xcconfig"; sourceTree = "<group>"; };
-		32CD0AC9D8FDB841FC287923 /* Pods_MusicPlayerTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicPlayerTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E583F4EDAFD363DC1528D9 /* Pods_MusicPlayerTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicPlayerTransitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B01336DC0354627B48693C1 /* Pods-MusicPlayerTransitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransitionUITests/Pods-MusicPlayerTransitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDAA0AC4894626235398366 /* libPods-MusicPlayerTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicPlayerTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69062371965B734C0B67C64E /* Pods_MusicPlayerTransitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicPlayerTransitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7373E914CFECAAD614989964 /* Pods-MusicPlayerTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransition/Pods-MusicPlayerTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		881703E520F5A298006C6ACA /* OneMoreLight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OneMoreLight.jpg; sourceTree = "<group>"; };
@@ -72,12 +51,6 @@
 		88B45CE020F59B4800422A67 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		88B45CE520F59B4900422A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B45CEA20F59B4900422A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88B45CEF20F59B4A00422A67 /* MusicPlayerTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88B45CF320F59B4A00422A67 /* MusicPlayerTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTransitionTests.swift; sourceTree = "<group>"; };
-		88B45CF520F59B4A00422A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88B45CFA20F59B4A00422A67 /* MusicPlayerTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88B45CFE20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTransitionUITests.swift; sourceTree = "<group>"; };
-		88B45D0020F59B4A00422A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C92AFF6022EE4FEF5410FB /* Pods-MusicPlayerTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransitionTests/Pods-MusicPlayerTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1FE0BDF262952845C9DB66C /* Pods-MusicPlayerTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransition/Pods-MusicPlayerTransition.release.xcconfig"; sourceTree = "<group>"; };
 		F98CB615185FB40C3468C4DD /* Pods-MusicPlayerTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayerTransitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayerTransitionTests/Pods-MusicPlayerTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,23 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3397206024DCD76447C0E22B /* Pods_MusicPlayerTransition.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88B45CEC20F59B4A00422A67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61BBAA7C97758758D96BEB24 /* Pods_MusicPlayerTransitionTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88B45CF720F59B4A00422A67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A890A001084A2E0979F04871 /* Pods_MusicPlayerTransitionUITests.framework in Frameworks */,
+				5F28BE2B45D9D5496C04DF14 /* libPods-MusicPlayerTransition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +71,9 @@
 		3AD4D9E236110C9CBC78F0ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32CD0AC9D8FDB841FC287923 /* Pods_MusicPlayerTransition.framework */,
 				48E583F4EDAFD363DC1528D9 /* Pods_MusicPlayerTransitionTests.framework */,
 				69062371965B734C0B67C64E /* Pods_MusicPlayerTransitionUITests.framework */,
+				5FDAA0AC4894626235398366 /* libPods-MusicPlayerTransition.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				88B45CDD20F59B4800422A67 /* MusicPlayerTransition */,
-				88B45CF220F59B4A00422A67 /* MusicPlayerTransitionTests */,
-				88B45CFD20F59B4A00422A67 /* MusicPlayerTransitionUITests */,
 				88B45CDC20F59B4800422A67 /* Products */,
 				7942C685611019F31E41141A /* Pods */,
 				3AD4D9E236110C9CBC78F0ED /* Frameworks */,
@@ -183,8 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				88B45CDB20F59B4800422A67 /* MusicPlayerTransition.app */,
-				88B45CEF20F59B4A00422A67 /* MusicPlayerTransitionTests.xctest */,
-				88B45CFA20F59B4A00422A67 /* MusicPlayerTransitionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,24 +157,6 @@
 			path = MusicPlayerTransition;
 			sourceTree = "<group>";
 		};
-		88B45CF220F59B4A00422A67 /* MusicPlayerTransitionTests */ = {
-			isa = PBXGroup;
-			children = (
-				88B45CF320F59B4A00422A67 /* MusicPlayerTransitionTests.swift */,
-				88B45CF520F59B4A00422A67 /* Info.plist */,
-			);
-			path = MusicPlayerTransitionTests;
-			sourceTree = "<group>";
-		};
-		88B45CFD20F59B4A00422A67 /* MusicPlayerTransitionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				88B45CFE20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift */,
-				88B45D0020F59B4A00422A67 /* Info.plist */,
-			);
-			path = MusicPlayerTransitionUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,7 +168,6 @@
 				88B45CD720F59B4800422A67 /* Sources */,
 				88B45CD820F59B4800422A67 /* Frameworks */,
 				88B45CD920F59B4800422A67 /* Resources */,
-				4B57D9D1431A68C07E8B22B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,44 +177,6 @@
 			productName = MusicPlayerTransition;
 			productReference = 88B45CDB20F59B4800422A67 /* MusicPlayerTransition.app */;
 			productType = "com.apple.product-type.application";
-		};
-		88B45CEE20F59B4A00422A67 /* MusicPlayerTransitionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88B45D0620F59B4A00422A67 /* Build configuration list for PBXNativeTarget "MusicPlayerTransitionTests" */;
-			buildPhases = (
-				7E68DA17A9742787F5EA684A /* [CP] Check Pods Manifest.lock */,
-				88B45CEB20F59B4A00422A67 /* Sources */,
-				88B45CEC20F59B4A00422A67 /* Frameworks */,
-				88B45CED20F59B4A00422A67 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				88B45CF120F59B4A00422A67 /* PBXTargetDependency */,
-			);
-			name = MusicPlayerTransitionTests;
-			productName = MusicPlayerTransitionTests;
-			productReference = 88B45CEF20F59B4A00422A67 /* MusicPlayerTransitionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		88B45CF920F59B4A00422A67 /* MusicPlayerTransitionUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88B45D0920F59B4A00422A67 /* Build configuration list for PBXNativeTarget "MusicPlayerTransitionUITests" */;
-			buildPhases = (
-				6202552935A0526278197DD0 /* [CP] Check Pods Manifest.lock */,
-				88B45CF620F59B4A00422A67 /* Sources */,
-				88B45CF720F59B4A00422A67 /* Frameworks */,
-				88B45CF820F59B4A00422A67 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				88B45CFC20F59B4A00422A67 /* PBXTargetDependency */,
-			);
-			name = MusicPlayerTransitionUITests;
-			productName = MusicPlayerTransitionUITests;
-			productReference = 88B45CFA20F59B4A00422A67 /* MusicPlayerTransitionUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -294,14 +190,6 @@
 				TargetAttributes = {
 					88B45CDA20F59B4800422A67 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					88B45CEE20F59B4A00422A67 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 88B45CDA20F59B4800422A67;
-					};
-					88B45CF920F59B4A00422A67 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 88B45CDA20F59B4800422A67;
 					};
 				};
 			};
@@ -319,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				88B45CDA20F59B4800422A67 /* MusicPlayerTransition */,
-				88B45CEE20F59B4A00422A67 /* MusicPlayerTransitionTests */,
-				88B45CF920F59B4A00422A67 /* MusicPlayerTransitionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,20 +226,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88B45CED20F59B4A00422A67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88B45CF820F59B4A00422A67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -369,62 +241,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MusicPlayerTransition-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4B57D9D1431A68C07E8B22B9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayerTransition/Pods-MusicPlayerTransition-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayerTransition/Pods-MusicPlayerTransition-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6202552935A0526278197DD0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MusicPlayerTransitionUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E68DA17A9742787F5EA684A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MusicPlayerTransitionTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,36 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88B45CEB20F59B4A00422A67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88B45CF420F59B4A00422A67 /* MusicPlayerTransitionTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88B45CF620F59B4A00422A67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88B45CFF20F59B4A00422A67 /* MusicPlayerTransitionUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		88B45CF120F59B4A00422A67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 88B45CDA20F59B4800422A67 /* MusicPlayerTransition */;
-			targetProxy = 88B45CF020F59B4A00422A67 /* PBXContainerItemProxy */;
-		};
-		88B45CFC20F59B4A00422A67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 88B45CDA20F59B4800422A67 /* MusicPlayerTransition */;
-			targetProxy = 88B45CFB20F59B4A00422A67 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		88B45D0120F59B4A00422A67 /* Debug */ = {
@@ -632,88 +419,6 @@
 			};
 			name = Release;
 		};
-		88B45D0720F59B4A00422A67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5C92AFF6022EE4FEF5410FB /* Pods-MusicPlayerTransitionTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MusicPlayerTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prime.MusicPlayerTransitionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayerTransition.app/MusicPlayerTransition";
-			};
-			name = Debug;
-		};
-		88B45D0820F59B4A00422A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F98CB615185FB40C3468C4DD /* Pods-MusicPlayerTransitionTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MusicPlayerTransitionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prime.MusicPlayerTransitionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayerTransition.app/MusicPlayerTransition";
-			};
-			name = Release;
-		};
-		88B45D0A20F59B4A00422A67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B01336DC0354627B48693C1 /* Pods-MusicPlayerTransitionUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MusicPlayerTransitionUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prime.MusicPlayerTransitionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicPlayerTransition;
-			};
-			name = Debug;
-		};
-		88B45D0B20F59B4A00422A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E5A62A8EA7CA35EA47CB046 /* Pods-MusicPlayerTransitionUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MusicPlayerTransitionUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prime.MusicPlayerTransitionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicPlayerTransition;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -731,24 +436,6 @@
 			buildConfigurations = (
 				88B45D0420F59B4A00422A67 /* Debug */,
 				88B45D0520F59B4A00422A67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		88B45D0620F59B4A00422A67 /* Build configuration list for PBXNativeTarget "MusicPlayerTransitionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88B45D0720F59B4A00422A67 /* Debug */,
-				88B45D0820F59B4A00422A67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		88B45D0920F59B4A00422A67 /* Build configuration list for PBXNativeTarget "MusicPlayerTransitionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88B45D0A20F59B4A00422A67 /* Debug */,
-				88B45D0B20F59B4A00422A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
