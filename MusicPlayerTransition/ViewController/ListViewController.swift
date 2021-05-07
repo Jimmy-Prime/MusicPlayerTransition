@@ -108,6 +108,9 @@ class ListViewController: UIViewController {
             cell.hero.modifiers = [.duration(0.125 * Double(index)), .translate(CGPoint.init(x: 0, y: 90)), .fade]
         }
 
-        present(PlayerViewController(), animated: true, completion: nil)
+        let vc = PlayerViewController()
+        vc.hero.isEnabled = true
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
     }
 }
